@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="460" height="350" src="https://user-images.githubusercontent.com/51465352/118379394-6519e700-b5b0-11eb-82d7-cba2c813c031.png">
+  <img width="460" height="350" src="https://user-images.githubusercontent.com/51465352/118380587-4a983b80-b5b9-11eb-9768-0cd7adcb8767.png">
 </p>
 
 # Face Recognition
