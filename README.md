@@ -6,11 +6,11 @@
 In this project I used the libraries Face Recognition and openCV. Follow the instructions to run in your computer.
 
 # How to install
-Firt of all, clone this repository in your favorite place, using:
+First of all, clone this repository in your favorite directory, using:
 
     git clone https://github.com/Matheus-Barros/Face_Recognition.git
 
-I recomend you to to install anaconda, to be able to install all the libraries that I used in this project. With that said, with your anaconda prompt opened, got tho the directory where the file Face_Rec-ENV.yml it is. Now type in the anaconda prompt:
+I recomend you to to install anaconda, to be able to install all the libraries that I used in this project. With that said, with your anaconda prompt opened, got tho the directory where the file Face_Rec-ENV.yml it is. Now write in the anaconda prompt:
 
     conda env create -f Face_Rec-ENV.yml
 
