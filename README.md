@@ -17,7 +17,7 @@ I recomend you to to install anaconda, to be able to install all the libraries t
 
 Wait till the installation ends. After that, you must activate this new enviroment. To do that, write in the anaconda prompt:
 
-    conda activate Face-Rec
+    conda activate FaceRec
 
 Done! Here we have all that we need to make this script run! Now in the anaconda prompt, go to the scripts folder, and then run the Face_Recognition.py.
 
