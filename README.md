@@ -1,7 +1,7 @@
 
 ![image](https://user-images.githubusercontent.com/51465352/118379394-6519e700-b5b0-11eb-82d7-cba2c813c031.png)
 
-# Face_Recognition
+# Face Recognition
 
 In this project I used the libraries Face Recognition and openCV. Follow the instructions to run in your computer.
 
