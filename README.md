@@ -15,7 +15,7 @@ I recomend you to to install anaconda, to be able to install all the libraries t
 
     conda env create -f Face_Rec-ENV.yml
 
-Wait till the installation ends. After that, you must activate this new enviroment. To do that, write in the anaconda prompt:
+Wait till the installation ends. After that, you must activate this new environment. To do that, write in the anaconda prompt:
 
     conda activate FaceRec
 
