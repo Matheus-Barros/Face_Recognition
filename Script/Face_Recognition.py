@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import face_recognition as fr
 import cv2
-from Create_dataset import create_dataset
+from Create_dataset import create_dataset, path
 import os
 import glob
 from colorama import Fore, Back, Style, init
@@ -15,16 +15,18 @@ warnings.filterwarnings("ignore")
 os.system('cls')
 print(Fore.BLUE+Style.BRIGHT+'==================== '+Style.RESET_ALL+'PROCESS INITIATED'+Fore.BLUE+Style.BRIGHT+' ====================')
 
-Output = 'C:\\Users\\mathe\\Documents\\GitHub\\Face_Recognition\\Logs\\'
+path = path()
+
+Output = path + '\\Logs\\'
 
 known_face_encondings = []
 known_face_names = []
 timestamp = []
 person_found = []
 
-#SET PEOPLE TO CREATE DATASET
-people = ['Elon Musk','Barack Obama','Matheus Barros']
-known_face_encondings,known_face_names = create_dataset(people)
+#SET HERE NAME OF THE PEOPLE TO CREATE THE DATASET. THE NAME MUST BE THE SAME OF THE FOLDER NAME OF THE FOLDER 'Faces'.
+people = ['Elon Musk','Barack Obama']
+known_face_encondings,known_face_names = create_dataset(people,path)
 
 
 video_capture = cv2.VideoCapture(0)
@@ -45,7 +47,7 @@ while True:
 
         face_distances = fr.face_distance(known_face_encondings, face_encoding)
 
-        best_match_index = np.argmin(face_distances)
+        best_match_index = np.argmin(face_distances)       
         if matches[best_match_index]:
             name = known_face_names[best_match_index]
         

@@ -6,9 +6,15 @@ from colorama import Fore, Back, Style, init
 
 init(autoreset=True)
 
-def create_dataset(People):
+def path():
+    current_directory = os.getcwd()
+    path = current_directory.replace('\Script','')
+    return path
+
+
+def create_dataset(People,path):
     try:
-        Input = 'C:\\Users\\mathe\\Documents\\GitHub\\Face_Recognition\\Faces\\'
+        Input = path + '\\Faces\\'
         
         known_face_encondings = []
         known_face_names = []
@@ -31,4 +37,3 @@ def create_dataset(People):
         print('Generation finished with '+Fore.RED+Style.BRIGHT+'issues')
         print(str(e))
         raise e
-    
