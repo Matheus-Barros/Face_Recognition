@@ -23,4 +23,4 @@ Done! Here we have all that we need to make this script run! Now in the anaconda
 
 # Configurations
 
-You can add new people to recognize. To do that, just create a new folder in the 'Faces' folder, with the name of the person. Then add at least 5 pictures of the person face. You also need to write the name of the person, in the list 'people'in the file Face_Recognition.py line 28. There you can choose who you wanna recognize. The name must be the same of the new folder created.
+You can add new people to recognize. To do that, just create a new folder in the 'Faces' folder, with the name of the person. Then add at least 5 pictures of the person face. You also need to write the name of the person, in the list 'people' in the file Face_Recognition.py line 28. There you can choose who you wanna recognize. The name must be the same of the new folder created.
